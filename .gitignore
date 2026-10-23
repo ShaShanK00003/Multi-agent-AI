@@ -1,0 +1,19 @@
+.env
+
+# Python caches and local test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+test-results/
+
+# Local vector stores and databases (for future RAG phases)
+chroma_db/
+.chroma/
+data/knowledge_base/
+data/models/
+.cache/
+*.sqlite3
+*.db
